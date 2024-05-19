@@ -1,11 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .products {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+      }
+      .product {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 10px;
+        width: 250px;
+        text-align: center;
+      }
+      .product img {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+      }
+      .product-details {
+        padding: 10px;
+      }
+      .new-label {
+        position: absolute;
+        background-color: #4caf50;
+        color: white;
+        padding: 2px 5px;
+        font-size: 12px;
+      }
+      .price {
+        color: #333;
+        font-weight: bold;
+        margin-right: 70%;
+      }
+      .category {
+        color: #666;
+        font-size: 12px;
+        margin-right: 45%;
+        margin-top: 0%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="products">
+      <div class="product">
+        <div class="new-label">I AM THE NEW</div>
+        <img
+          src="https://imagescdn.reebok.in/img/app/product/8/859569-10137347.jpg?q=75&auto=format&w=387"
+          alt="Reebok Women Energen Plus 2"
+        />
+        <div class="product-details">
+            <p class="category">RUNNING SHOES</p>
+            <h3>Reebok Women Energen Plus 2</h3>
+          <p class="price">₹6,999</p>
+        </div>
+      </div>
+      <div class="product">
+        <div class="new-label">I AM THE NEW</div>
+        <img
+          src="https://imagescdn.reebok.in/img/app/product/9/937990-11980082.jpg?q=75&auto=format&w=387"
+          alt="Reebok Unisex Classic Leather"
+        />
+        <div class="product-details">
+            <p class="category">CLASSICS SHOES</p>
+            <h3>Reebok Unisex Classic Leather</h3>
+          <p class="price">₹7,999</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
