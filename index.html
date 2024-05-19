@@ -1,50 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/abc5352ddd.js" crossorigin="anonymous"></script>
     <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
+        body{
+            font-family: sans-serif;
+            color: white;
+        }
+        .container{
+            display: flex;
+            background-color: #252525;
+            justify-content: end;
+            align-items: center;
+            gap: 30px;
+        }
+        #image{
+            width: 45px;
+            height: 49px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-right: 10px;
+        }
+        #one{
+            margin-right: 630px;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .logo{
+            width: 50px;
+            height: 50px;
+            padding-right: 8px;
+            cursor: pointer;
+        }
+        .chars{
+            font-size: 12px;
+            width: 43px;
+            height: 17px;
+            font-weight: 400;
+            cursor: pointer;
+        }
+        #logo-1{
+            width: 70px;
+            height: 17px;
+            font-size: 12px;
+            font-weight: 400;
+            cursor: pointer;       
+        }
+        #login{
+            width: 36px;
+            height: 17px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+         
+            
+        .content {
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            margin: 30px;
+            padding: 20px;
+            border: 1px solid #dddddd;
+            width: 20%;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .category {
+        color: #666;
+        font-size: 15px;
+        margin-right: 45%;
+        margin-top: 0%;
       }
-      .products {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 20px;
-      }
-      .product {
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        margin: 10px;
-        width: 250px;
-        text-align: center;
-      }
-      .product img {
-        width: 100%;
-        border-bottom: 1px solid #ccc;
-      }
-      .product-details {
-        padding: 10px;
-      }
-      .new-label {
-        position: absolute;
-        background-color: #4caf50;
-        color: white;
-        padding: 2px 5px;
-        font-size: 12px;
-      }
+
       .price {
         color: #333;
         font-weight: bold;
-        margin-right: 70%;
-      }
-      .category {
-        color: #666;
-        font-size: 12px;
-        margin-right: 45%;
-        margin-top: 0%;
+        margin-right: 0%;
       }
     </style>
   </head>
@@ -72,8 +118,48 @@
           <p class="category">CLASSICS SHOES</p>
           <h3>Reebok Unisex Classic Leather</h3>
           <p class="price">₹7,999</p>
+=======
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div id="one">MORE BRANDS</div>
+                <div>
+                    <span class="logo"><i class="fa-solid fa-location-dot"></i></span>
+                    <span class="chars">STORES</span>
+                </div>
+                <div>
+                    <span class="logo"><i class="fas fa-info-circle"></i></span>
+                    <span id="logo-1">CONTACT US</span>
+                </div>
+                <div>
+                    <span class="logo"><i class="fa-solid fa-user"></i></span>
+                    <span id="login">LOG IN</span>
+                </div>
+                <div>
+                    <span class="logo"><i class="fa-regular fa-heart"></i></span>
+                    <span class="logo"><i class="fa-solid fa-suitcase"></i></span>
+                </div>
+                <div>
+                    <img id="image" src="https://www.adityabirla.com/assets/images/aditya-birla-group-logo.jpg" alt="logo">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="product">
+            <img src="https://imagescdn.reebok.in/img/app/product/3/39628881-13000211.jpg?q=75&auto=format&w=342" alt="Product 1">
+            <p class="category">TRAINING SHOES</p>
+            <h3 style="color: #252525;">Reebok Women NFX Trainer</h3>
+          <p class="price">₹7,599</p>           
         </div>
-      </div>
-    </div>
-  </body>
+        <div class="product">
+            <img src="https://imagescdn.reebok.in/img/app/product/3/39628113-12976330.jpg?q=75&auto=format&w=342" alt="Product 2">
+            <p class="category">RUNNING SHOES</p>
+            <h3 style="color: #252525;">Reebok Women Rush Runner </h3>
+          <p class="price">₹2,599</p>   
+        </div>
+        </div>
+</body>
 </html>
