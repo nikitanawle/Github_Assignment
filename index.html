@@ -4,8 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/abc5352ddd.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            font-family: sans-serif;
+            color: white;
+        }
+        .container{
+            display: flex;
+            background-color: #252525;
+            justify-content: end;
+            align-items: center;
+            gap: 30px;
+        }
+        #image{
+            width: 45px;
+            height: 49px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            margin-right: 10px;
+        }
+        #one{
+            margin-right: 630px;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .logo{
+            width: 50px;
+            height: 50px;
+            padding-right: 8px;
+            cursor: pointer;
+        }
+        .chars{
+            font-size: 12px;
+            width: 43px;
+            height: 17px;
+            font-weight: 400;
+            cursor: pointer;
+        }
+        #logo-1{
+            width: 70px;
+            height: 17px;
+            font-size: 12px;
+            font-weight: 400;
+            cursor: pointer;       
+        }
+        #login{
+            width: 36px;
+            height: 17px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 400;
+        }
+    </style>
 </head>
 <body>
-    <h1>sumit branch</h1>
+    <header>
+        <nav>
+            <div class="container">
+                <div id="one">MORE BRANDS</div>
+                <div>
+                    <span class="logo"><i class="fa-solid fa-location-dot"></i></span>
+                    <span class="chars">STORES</span>
+                </div>
+                <div>
+                    <span class="logo"><i class="fas fa-info-circle"></i></span>
+                    <span id="logo-1">CONTACT US</span>
+                </div>
+                <div>
+                    <span class="logo"><i class="fa-solid fa-user"></i></span>
+                    <span id="login">LOG IN</span>
+                </div>
+                <div>
+                    <span class="logo"><i class="fa-regular fa-heart"></i></span>
+                    <span class="logo"><i class="fa-solid fa-suitcase"></i></span>
+                </div>
+                <div>
+                    <img id="image" src="https://www.adityabirla.com/assets/images/aditya-birla-group-logo.jpg" alt="logo">
+                </div>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
