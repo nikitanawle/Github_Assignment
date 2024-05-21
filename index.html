@@ -7,13 +7,17 @@
     <script src="https://kit.fontawesome.com/abc5352ddd.js" crossorigin="anonymous"></script>
     <style>
         body{
-            font-family: sans-serif;
-            color: white;
+            /* font-family: sans-serif; */
+           
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
         }
         .container{
             display: flex;
             background-color: #252525;
-            justify-content: end;
+            /* justify-content: end; */
             align-items: center;
             gap: 30px;
         }
@@ -25,7 +29,7 @@
             margin-right: 10px;
         }
         #one{
-            margin-right: 630px;
+            margin-right: 900px;
             font-size: 12px;
             font-weight: 400;
         }
@@ -62,30 +66,26 @@
             height: 10px;
             width: 60px;
             border: 1px solid black;
-=======
-
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
         }
 
-         
+        .nav2 {
+            padding: 20px 0;
+        }
+       
 
             
-        .content {
+        /* .content {
             padding: 20px;
-        }
+        } */
 
         .product {
             background-color: #fff;
-            margin: 30px;
+            margin: 10px;
             padding: 20px;
             border: 1px solid #dddddd;
             width: 20%;
             display: inline-block;
-            vertical-align: top;
-            text-align: center;
+            
         }
 
         .category {
@@ -100,72 +100,18 @@
         font-weight: bold;
         margin-right: 0%;
       }
+
+      .items {
+        display: inline-block;
+      }
     </style>
   </head>
-  <body>
-    <div class="products">
-      <div class="product">
-        <div class="new-label">I AM THE NEW</div>
-        <img
-          src="https://imagescdn.reebok.in/img/app/product/8/859569-10137347.jpg?q=75&auto=format&w=387"
-          alt="Reebok Women Energen Plus 2"
-        />
-        <div class="product-details">
-          <p class="category">RUNNING SHOES</p>
-          <h3>Reebok Women Energen Plus 2</h3>
-          <p class="price">₹6,999</p>
-        </div>
-      </div>
-      <div class="product">
-        <div class="new-label">I AM THE NEW</div>
-        <img
-          src="https://imagescdn.reebok.in/img/app/product/9/937990-11980082.jpg?q=75&auto=format&w=387"
-          alt="Reebok Unisex Classic Leather"
-        />
-        <div class="product-details">
-          <p class="category">CLASSICS SHOES</p>
-          <h3>Reebok Unisex Classic Leather</h3>
-          <p class="price">₹7,999</p>
-=======
-</head>
-<body>
-
-    <!-- this is deepak Code -->
-    <nav>
-        <div class="logo"><img src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/header_brand_logo_RBK.png?q=75&auto=format" height="20" width="130" alt=""></div>
-        <div class="items">
-            <span>NEW</span>
-            <span>MEN</span>
-            <span>WOMEN</span>
-            <span>ICONS</span>
-            <span>SPORTS</span>
-            <span>CLASSICS</span>
-            <span style="color: red;">SALE</span>
-            <span >GIFT CARD</span>
-        </div>
-       
-        <div class="d1">
-            <i class="fa-solid fa-magnifying-glass" ></i>
-           
-            <div class="d2">
-                
-                
-            
-            <input type="text" placeholder="Search Classic">
-            </div>
-               
-            <button>
-                
-                 <span ><i class="fa-solid fa-truck" style="color: white;"></i></span>  
-               
-                <div class="innerdiv2">
-                   <h4 style="margin: 0px; color: white;">Express Delivery</h4>
-                <h6 style="margin: 0px 0px 0px 12px; color: rgb(228,144,160);">Select your nearest store ></h6>
-=======
+    <body>   
+        
     <header>
         <nav>
-            <div class="container">
-                <div id="one">MORE BRANDS</div>
+            <div class="container" style=" color: white;">
+                <div id="one" style="margin-left: 20px;">MORE BRANDS</div>
                 <div>
                     <span class="logo"><i class="fa-solid fa-location-dot"></i></span>
                     <span class="chars">STORES</span>
@@ -189,19 +135,86 @@
             </div>
         </nav>
     </header>
+    <!-- this is deepak Code -->
+    <nav>
+        
+        <div class="nav2">
+            <div class="logo" style="display: inline-block; margin-left: 20px; margin-top: 10px;"><img src="https://imagescdn.reebok.in/img/app/brands/superapp/Icons/header_brand_logo_RBK.png?q=75&auto=format" height="20" width="130" alt=""></div>
+        <div class="items" style="margin-left: 100px;">
+            <span>NEW</span>
+            <span style="margin-left:20px;">MEN</span>
+            <span style="margin-left:20px;">WOMEN</span>
+            <span style="margin-left:20px;">ICONS</span>
+            <span style="margin-left:20px;">SPORTS</span>
+            <span style="margin-left:20px;">CLASSICS</span>
+            <span style="color: red; margin-left:20px">SALE</span>
+            <span style="margin-left:20px" >GIFT CARD</span>
+        </div>
+
+        <div style="display: inline-block; margin-left: 300px;">
+            <i class="fa-solid fa-magnifying-glass"></i>
+       
+        <div class="d1" style="display: inline-block;">
+            
+        
+           
+            <div class="d2" style="border-bottom: 2px solid; margin-left: 50px;">
+                
+                
+            
+            <input type="text" placeholder="Search Classic" style="border-bottom: 2px solid; border: none;">
+            </div>
+        </div>
+               
+            <button style="background-color: red; border: none; padding: 6px; border-radius: 30px;">
+                
+                 <span ><i class="fa-solid fa-truck" style="color: white;"></i></span>  
+               
+                <div class="innerdiv2" style="display: inline-block;">
+                   <h4 style="margin: 0px; color: white;">Express Delivery</h4>
+                <h6 style="margin: 0px 0px 0px 12px; color: rgb(228,144,160);">Select your nearest store </h6>
+                </div>
+            </button>
+        </div>
+        </div>
+    </nav>
+
     <div class="content">
         <div class="product">
-            <img src="https://imagescdn.reebok.in/img/app/product/3/39628881-13000211.jpg?q=75&auto=format&w=342" alt="Product 1">
+            <img src="https://imagescdn.reebok.in/img/app/product/3/39628881-13000211.jpg?q=75&auto=format&w=342" alt="Product 1" style="width: 100%;">
             <p class="category">TRAINING SHOES</p>
             <h3 style="color: #252525;">Reebok Women NFX Trainer</h3>
           <p class="price">₹7,599</p>           
         </div>
         <div class="product">
-            <img src="https://imagescdn.reebok.in/img/app/product/3/39628113-12976330.jpg?q=75&auto=format&w=342" alt="Product 2">
+            <img src="https://imagescdn.reebok.in/img/app/product/3/39628113-12976330.jpg?q=75&auto=format&w=342" alt="Product 2" style="width: 100%;">
             <p class="category">RUNNING SHOES</p>
             <h3 style="color: #252525;">Reebok Women Rush Runner </h3>
           <p class="price">₹2,599</p>   
         </div>
-        </div>
-</body>
+        
+            <div class="product">
+              <img
+                src="https://imagescdn.reebok.in/img/app/product/8/859569-10137347.jpg?q=75&auto=format&w=387"
+                alt="Reebok Women Energen Plus 2" style="width: 100%;"/>                
+              <div class="product-details">
+                <p class="category">RUNNING SHOES</p>
+                <h3>Reebok Women Energen Plus 2</h3>
+                <p class="price">₹6,999</p>
+              </div>
+            </div>
+            <div class="product">
+              <img
+                src="https://imagescdn.reebok.in/img/app/product/9/937990-11980082.jpg?q=75&auto=format&w=387"
+                alt="Reebok Unisex Classic Leather" style="width: 100%;"/>
+              <div class="product-details">
+                <p class="category">CLASSICS SHOES</p>
+                <h3>Reebok Unisex Classic Leather</h3>
+                <p class="price">₹7,999</p>
+              </div>
+            </div>
+              
+    </div>
+    
+    </body>
 </html>
